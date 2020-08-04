@@ -2,37 +2,39 @@
 <html lang="ru">
     <head>
     	<meta charset="utf-8">
+    	<link rel="stylesheet" type="text/css" href="css/main.css">
+    	<meta name="viewport" content="width=device-width,initial-scale=1" />
     	<title>Welcome to SEDONA!</title>
     </head>
     <body>
     	<header class="index-header">
     		<a class="index-header__logo">
-    			<img src="#" class="index-header__logo-image" width="#" height="#" alt="Логотип 'Седона'">
+    			<img src="img/Logo.png" class="index-header__logo-image" width="102" height="83" alt="Логотип 'Седона'">
     		</a>
     		<nav class="main-nav">
-    			<button class="main-nav__toggle" type="button">Открыть меню</button>
-    			<div class="main-nav_wrapper">
+    			<button class="main-nav__toggle" type="button"></button>
+    			<div class="main-nav__wrapper">
 					<ul class="main-nav__list site-list">
 						<li class="site-list__item site-list__item--active">
-							<a href="#">ГЛАВНАЯ</a>
+							<a href="#" class="site-list__link">ГЛАВНАЯ</a>
 						</li>
-						<li class="site-list_item">
-							<a href="photo.html">ФОТО И ВИДЕО</a>
+						<li class="site-list__item site-list__item--active">
+							<a href="photo.html" class="site-list__link">ФОТО И ВИДЕО</a>
 						</li>
-						<li class="site-list_item">
-							<a href="form.html">ФОРМА ОТЗЫВА</a>
+						<li class="site-list__item site-list__item--active">
+							<a href="form.html" class="site-list__link">ФОРМА ОТЗЫВА</a>
 						</li>
-						<li class="site-list_item">
-							<a href="#">HTML ACADEMY</a>
+						<li class="site-list__item site-list__item--active">
+							<a href="#" class="site-list__link">HTML ACADEMY</a>
 						</li>
 					</ul>
 				</div>
     		</nav>
+		</header>
+		<main class="index-main">
 			<h1 class="visually-hidden">Welcome to the gorgeous SEDONA!</h1>
 				<div class="about-sedona__wrapper">
-					<img src="#" width="#" height="#" class="about-sedona__mountains" alt="Горы Седоны">
-					<img src="#" width="#" height="#" class="about-sedona__text" alt="Cедона лучше, чем Грандканьон">
-					<img src="#" width="#" height="#" class="about-sedona__triangle" alt="обрезка гор">
+					<img src="img/back-mobile.png" width="100%" height="auto" class="about-sedona__montains" alt="Горы Седона">
 				</div>
 				<p class="text--bold about-sedona__text">СЕДОНА - НЕБОЛЬШОЙ
 					ГОРОДОК В АРИЗОНЕ,
@@ -41,61 +43,58 @@
 				<p class="text--regular about-sedona__text">РАССМОТРИМ 5 ПРИЧИН ПО КОТОРЫМ
 					СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!
 				</p>
-		</header>
-		<main class="index-main">
 			<table class="advanteges-table">
-				<tr class="advanteges-table__listing">
-					<td class="advanteges-table__text--white text--bold">НАСТОЯЩИЙ ГОРОДОК</td>
-					<td class="text--regular advanteges-table__text--white">-№1-
-						СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,
+				<tr class="advanteges-table__listing advanteges-table__listing--blue">
+					<td class="advanteges-table__block advanteges-table__text--white-head text--bold">НАСТОЯЩИЙ ГОРОДОК</td>
+					<td class="advanteges-table__block text--regular advanteges-table__text--white">-№1-</td>
+					<td class="advanteges-table__block text--regular advanteges-table__text--white">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,
 						ТАМ ТЕЧЁТ СВОЯ ЖИЗНЬ
 					</td>
-				</tr>
 				<img src="#" width="#" height="#" class="advanteges-table__house" alt="Мотель">
 				<tr class="advanteges-table__listing">
-					<td class="text--bold advanteges-table__text">ЖИЛЬЕ</td>
-					<td class="text--regular advanteges-table__text"> РЕКОМЕНДУЕМ ПОЖИТЬ В
+					<td class="advanteges-table__block text--bold advanteges-table__text">ЖИЛЬЕ</td>
+					<td class="advanteges-table__block text--regular advanteges-table__text"> РЕКОМЕНДУЕМ ПОЖИТЬ В
 					НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В
 					КИНО!
 					</td>
 				</tr>
 				<tr class="advanteges-table__listing">
-					<td class="text--bold advanteges-table__text">СУВЕНИРЫ</td>
-					<td class="text--regular advanteges-table__text">НА ТОЛЬКО КИТАЙСКОГО, НО И
+					<td class="advanteges-table__block text--bold advanteges-table__text">СУВЕНИРЫ</td>
+					<td class="advanteges-table__block text--regular advanteges-table__text">НА ТОЛЬКО КИТАЙСКОГО, НО И
 					МЕСТНОГО ПРОИЗВОДСТВА!
 					</td>
 				</tr>
 				<tr class="advanteges-table__listing">
-					<td class="text--bold advanteges-table__text">ЕДА</td>
-					<td class="text--regular advanteges-table__text">ВСЕГДА ЗАКАЗЫВАЙТЕ
+					<td class="advanteges-table__block text--bold advanteges-table__text">ЕДА</td>
+					<td class="advanteges-table__block text--regular advanteges-table__text">ВСЕГДА ЗАКАЗЫВАЙТЕ
 					ФИРМЕННЫЙ БУРГЕН, ВЫ НЕ
 					РАЗОЧАРУЕТЕСЬ</td>
 				</tr>
 				<tr class="advanteges-table__listing">
-					<td class="text--bold advanteges-table__text--white">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</td>
-					<td class="text--regular advanteges-table__text--white">-№2-
+					<td class="advanteges-table__block text--bold advanteges-table__text--white">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</td>
+					<td class="advanteges-table__block text--regular advanteges-table__text--white">-№2-
 					ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ ВЫ
 					ОСМЕЛИТЕСЬ, КОНЕЧНО
 					</td>
 				</tr>
 				<img src="#" width="#" height="#" class="advanteges-table__devil-bridge" alt="Мост Дьявола">
 				<tr class="advanteges-table__listing">
-					<td class="text--bold advanteges-table__text">НЕБОЛЬШАЯ ПЛОЩАДЬ</td>
-					<td class="text--regular advanteges-table__text">-№3-
+					<td class="advanteges-table__block text--bold advanteges-table__text">НЕБОЛЬШАЯ ПЛОЩАДЬ</td>
+					<td class="advanteges-table__block text--regular advanteges-table__text">-№3-
 					ВСЕ ИНТЕРЕСНЫЕ МЕСТА НАХОДЯТСЯ
 					ОЧЕНЬ БЛИЗКО
 					</td>
 				</tr>
 				<tr class="advanteges-table__listing">
-					<td class="text--bold advanteges-table__text">КРАСИВАЯ ДОРОГА</td>
-					<td class="text--regular advanteges-table__text">-№4-
+					<td class="advanteges-table__block text--bold advanteges-table__text">КРАСИВАЯ ДОРОГА</td>
+					<td class="advanteges-table__block text--regular advanteges-table__text">-№4-
 					ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА
 					СОВСЕМ НЕ СКУЧНО!
 					</td>
 				</tr>
 				<tr class="advanteges-table__listing">
-					<td class="text--bold advanteges-table__text">МАЛО ТУРИСТОВ</td>
-					<td class="text--regular advanteges-table__text">-№5-
+					<td class="advanteges-table__block text--bold advanteges-table__text">МАЛО ТУРИСТОВ</td>
+					<td class="advanteges-table__block text--regular advanteges-table__text">-№5-
 					БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН
 					И ТОЛПИТСЯ ТАМ
 					</td>
@@ -126,4 +125,6 @@
 				<a class="copyright_link" href="#"><img src="#"></a>
 			</div>
 		</footer>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
     </body>

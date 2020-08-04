@@ -1,0 +1,160 @@
+@font-face {
+font-family: PTSans bold;
+src: url(../fonts/PTSans.ttf);
+font-weight: bold;
+font-style: bold;
+}
+@font-face {
+	font-family: PTSans Regular;
+	src: url(../fonts/PTSansRegular.ttf);
+	font-weight: bold;
+	font-style: bold;
+}
+
+body {
+	margin: 0;
+}
+
+/*--- NAVIGATION and LOGO ---*/
+
+.index-header__logo-image {
+	display: block;
+	margin: auto;
+}
+
+.main-nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.main-nav__toggle {
+	width: 23px;
+	height: 21px;
+	margin: 19px;
+	background-image: url(../img/mobile-menu__icon.png);
+	border: 0;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.index-header {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.main-nav__list {
+	font-family: PTSans bold;
+	font-size: 18px;
+	line-height: 40px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	align-items: stretch;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.main-nav__wrapper {
+	display: none;
+}
+.active {
+	display: block;
+	background-image: url(../img/mobile-menu_icon-esc.png);
+	background-repeat: no-repeat;
+	background-color: #81b3d2;
+}
+.site-list__item {
+	background-color: #81b3d2;
+	margin-bottom: 1px;
+	text-align: center;
+	display: block;
+}
+.site-list__link {
+	display: block;
+	margin-top: 8px;
+}
+.site-list__item--active {
+	height: 55px;
+	box-shadow: 0px 1px 5px 0px rgba(1, 1, 1, 0.2),
+				0px 1px 5px 0px rgba(255, 255, 255, 0.2) inset;
+	text-shadow: 0px 1px 5px rgba(1, 1, 1, 0.2);
+}
+.index-header__padding {
+	padding-top: 224px;
+}
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+
+/*--- MAIN CONTENT ---*/
+.index-main {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.about-sedona__montains {
+	position: relative;
+	top: -28px;
+	z-index: -1;
+}
+.about-sedona__wrapper {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+.text--bold {
+	font-size: 18pt;
+	line-height: 26pt;
+	color: black;
+	font-family: PTSans bold;
+	text-align: center;
+	white-space: pre-line;
+}
+.text--regular {
+	font-size: 16pt;
+	line-height: 26pt;
+	color: 4f4f4f;
+	font-family: PTSans Regular;
+	text-align: center;
+	white-space: pre-line;
+}
+/*--- ADVANTEGES ---*/
+.advanteges-table {
+	white-space: pre-line;
+}
+.advanteges-table__block {
+	display: block;
+}
+.advanteges-table__listing--blue {
+	margin-right: -22px;
+	margin-left: -22px;
+	background-color: #81b3d2;
+	display: block;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.advanteges-table__text--white-head{
+	color: white;
+	font-size: 18pt;
+	line-height: 26pt;
+}
+.advanteges-table__text--white {
+	padding-right: 20px;
+	padding-left: 20px;
+	color: white;
+	font-size: 14pt;
+	line-height: 21pt;
+}
