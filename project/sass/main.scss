@@ -108,8 +108,8 @@ a {
 	z-index: -1;
 }
 .text--bold {
-	font-size: 18pt;
-	line-height: 26pt;
+	font-size: 21pt;
+	line-height: 10pt;
 	color: black;
 	font-family: PTSans bold;
 	text-align: center;
@@ -118,8 +118,8 @@ a {
 	padding-right: 20px;
 }
 .text--regular {
-	font-size: 16pt;
-	line-height: 26pt;
+	font-size: 14pt;
+	line-height: 21pt;
 	color: 4f4f4f;
 	font-family: PTSans Regular;
 	text-align: center;
@@ -141,13 +141,9 @@ a {
 }
 .advanteges-table__text--white-head {
 	color: white;
-	line-height: 10pt;
-	font-size: 21pt;
 }
 .advanteges-table__text--white {
 	color: white;
-	line-height: 21pt;
-	font-size: 14pt;
 }
 tbody {
 	display: flex;
@@ -167,6 +163,61 @@ tbody {
 }
 .advanteges-table__text--right-padding {
 	padding-left: 80px;
+}
+.advanteges-table__bridge {
+	margin-top: -20px;
+}
+.advanteges-table__listing--gray-background {
+	background-color: #eeeeee;
+}
+.about-sedona__text {
+	font-size: 18pt;
+	line-height: 26pt;
+}
+.advanteges-table__grey-line {
+	display: block;
+	margin: auto;
+}
+.advanteges-table__block--grey-line {
+	display: block;
+}
+
+/*--- BUTTON AND MAP ---*/
+.button {
+	background-color: #81b3d2;
+	display: block;
+	margin: auto;
+	margin-bottom: 50px;
+	border: none;
+	height: 60px;
+}
+.text--line-height-26 {
+	line-height: 26px;
+}
+
+/*--- FOOTER AND SOCIAL NETWORKS ---*/
+.index-footer__hashtag {
+	font-family: PTSans bold;
+	font-size: 21pt;
+	line-height: 26pt;
+	color: black;
+	text-align: center;
+}
+.socal-networks {
+	list-style-type: none;
+	display: flex;
+}
+.index-footer__copyright {
 	font-size: 14pt;
-	line-height: 21pt;
+	line-height: 26pt;
+	font-family: PTSans bold;
+	text-align: center;
+}
+.index-footer_copyright--wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.copyright_icon {
+	display: block;
+	margin: auto;
 }
