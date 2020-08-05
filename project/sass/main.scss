@@ -102,18 +102,10 @@ a {
 }
 
 /*--- MAIN CONTENT ---*/
-.index-main {
-	padding-right: 20px;
-	padding-left: 20px;
-}
 .about-sedona__montains {
 	position: relative;
 	top: -28px;
 	z-index: -1;
-}
-.about-sedona__wrapper {
-	margin-left: -20px;
-	margin-right: -20px;
 }
 .text--bold {
 	font-size: 18pt;
@@ -122,6 +114,8 @@ a {
 	font-family: PTSans bold;
 	text-align: center;
 	white-space: pre-line;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .text--regular {
 	font-size: 16pt;
@@ -130,6 +124,8 @@ a {
 	font-family: PTSans Regular;
 	text-align: center;
 	white-space: pre-line;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 /*--- ADVANTEGES ---*/
 .advanteges-table {
@@ -139,22 +135,38 @@ a {
 	display: block;
 }
 .advanteges-table__listing--blue {
-	margin-right: -22px;
-	margin-left: -22px;
 	background-color: #81b3d2;
-	display: block;
     padding-bottom: 20px;
     padding-top: 40px;
 }
-.advanteges-table__text--white-head{
+.advanteges-table__text--white-head {
 	color: white;
-	font-size: 18pt;
-	line-height: 26pt;
+	line-height: 10pt;
+	font-size: 21pt;
 }
 .advanteges-table__text--white {
-	padding-right: 20px;
-	padding-left: 20px;
 	color: white;
+	line-height: 21pt;
+	font-size: 14pt;
+}
+tbody {
+	display: flex;
+	flex-direction: column;
+}
+.advanteges-table {
+	border-spacing: 0;
+}
+.advanteges-table__text--right_side {
+	text-align: left;
+}
+.advantages-icon {
+	position: relative;
+	margin-right: 15px;
+	padding-left: 5px;
+	top: 10px;
+}
+.advanteges-table__text--right-padding {
+	padding-left: 80px;
 	font-size: 14pt;
 	line-height: 21pt;
 }
