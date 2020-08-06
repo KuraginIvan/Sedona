@@ -128,6 +128,10 @@ a {
 	padding-left: 20px;
 }
 /*--- ADVANTEGES ---*/
+.advanteges-table__background-cut {
+	position: relative;
+	top: 23px;
+}
 .advanteges-table {
 	white-space: pre-line;
 }
@@ -220,4 +224,35 @@ tbody {
 .copyright_icon {
 	display: block;
 	margin: auto;
+}
+
+/*--- TABLET ---*/
+@media (min-width: 500px) {
+.main-nav__toggle {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+.main-nav__wrapper {
+	display: block;
+}
+.main-nav__list {
+	flex-direction: unset;
+	justify-content: space-around;
+}
+.site-list__link {
+	color: black;
+}
+.site-list__item--active {
+	box-shadow: none;
+	text-shadow: none;
+}
+.site-list__item {
+	background-color: white;
+}
 }
