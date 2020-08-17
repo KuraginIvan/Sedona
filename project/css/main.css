@@ -94,6 +94,32 @@ a {
   overflow: hidden; }
 
 /*--- MAIN CONTENT ---*/
+.about-sedona__wrapper {
+  background-image: url(../img/back-mobile.png.jpg);
+  height: 400px;
+  background-position-y: bottom;
+  position: relative;
+  background-position-x: center;
+  top: -25px;
+  z-index: -1; }
+
+.about-sedona__text {
+  margin-bottom: 0; }
+
+.advanteges-table__house {
+  background-image: url("../img/Motel_mobile.jpg");
+  background-position: center;
+  width: 100%;
+  height: 260px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px; }
+
+.advanteges-table__listing--motel {
+  word-spacing: normal;
+  display: flex; }
+
 .about-sedona__montains {
   position: relative;
   top: -28px;
@@ -125,7 +151,8 @@ a {
   top: 23px; }
 
 .advanteges-table {
-  white-space: pre-line; }
+  white-space: pre-line;
+  display: contents; }
 
 .advanteges-table__block {
   display: block; }
@@ -177,6 +204,16 @@ tbody {
 .advanteges-table__block--grey-line {
   display: block; }
 
+.advanteges-table__bridge {
+  background-image: url("../img/Bridge_mobile.jpg");
+  background-position: center;
+  width: 100%;
+  height: 260px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px; }
+
 /*--- BUTTON AND MAP ---*/
 .button {
   background-color: #81b3d2;
@@ -199,7 +236,9 @@ tbody {
 
 .socal-networks {
   list-style-type: none;
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  padding: 0; }
 
 .index-footer__copyright {
   font-size: 14pt;
@@ -257,7 +296,7 @@ tbody {
     margin-top: 50px; }
   .advanteges-table__listing-flex1 {
     width: 33%;
-    height: 256px; }
+    height: 262px; }
   .advanteges-table__listing-flex2 {
     width: 67%;
     white-space: normal;
@@ -289,4 +328,28 @@ tbody {
   .advanteges-table__listing-flex4 {
     width: 34%; }
   .advanteges-table__listing-flex5 {
-    width: 32%; } }
+    width: 32%; }
+  .advanteges-table__grey-line {
+    display: none; }
+  .socal-networks {
+    justify-content: center; } }
+
+@media (min-width: 980px) {
+  tbody {
+    padding-top: 30px; }
+  body {
+    max-width: 1200px;
+    margin: auto; }
+  .about-sedona__text {
+    margin-right: 100px;
+    margin-left: 100px; }
+  .advanteges-table__bridge {
+    background-image: url("../img/Advanteges_devil-bridge.jpg"); }
+  .advanteges-table__house {
+    background-image: url("../img/Motel.jpg"); }
+  .advanteges-desktop__header--blue {
+    padding-top: 30px; }
+  .advanteges-desktop__text-bold--padding {
+    margin-top: 30px; }
+  .advanteges-desktop__text-regular--padding {
+    margin-bottom: 30px; } }
