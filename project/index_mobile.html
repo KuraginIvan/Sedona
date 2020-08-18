@@ -9,10 +9,13 @@
     <body>
     	<header class="index-header">
     		<a class="index-header__logo">
-    			<img src="img/Logo.png" class="index-header__logo-image" width="102" height="83" alt="Логотип 'Седона'">
+    			<img src="img/Logo.png" class="index-header__logo-image" width="auto" height="auto" alt="Логотип 'Седона'">
+    			<img src="img/Logo-desk.png" class="desktop-header__logo-image" width="auto" height="auto" alt="Logo Sedona">
     		</a>
     		<nav class="main-nav">
-    			<button class="main-nav__toggle" type="button"></button>
+    			<button class="main-nav__toggle" type="button">
+    				<span class="burger-menu__span"></span>
+    			</button>
     			<div class="main-nav__wrapper">
 					<ul class="main-nav__list site-list">
 						<li class="site-list__item site-list__item--active site-list__item-flex1">
@@ -48,7 +51,7 @@
 					<td class="advanteges-table__block advanteges-table__text--white-head text--bold advanteges-desktop__header--blue">
 					НАСТОЯЩИЙ ГОРОДОК</td>
 					<td class="advanteges-table__block text--regular advanteges-table__text--white">-№1-</td>
-					<td class="advanteges-table__block text--regular advanteges-table__text--white">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,
+					<td class="advanteges-table__block text--regular advanteges-table__text--white desktop-text__blue">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,
 						ТАМ ТЕЧЁТ СВОЯ ЖИЗНЬ
 					</td>
 				</tr>
@@ -80,7 +83,7 @@
 				<tr class="advanteges-table__listing advanteges-table__listing--blue advanteges-table__listing-flex1">
 					<td class="advanteges-table__block text--bold advanteges-table__text--white advanteges-desktop__header--blue" class="advantages-icon">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</td>
 					<td class="advanteges-table__block text--regular advanteges-table__text--white">-№2-</td>
-					<td class="advanteges-table__block text--regular advanteges-table__text--white">ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ ВЫ
+					<td class="advanteges-table__block text--regular advanteges-table__text--white desktop-text__blue">ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ ВЫ
 					ОСМЕЛИТЕСЬ, КОНЕЧНО
 					</td>
 				</tr>
@@ -110,17 +113,17 @@
 				</tr>
 			</table>
 			<section class="index-booking">
-				<h2 class="text--bold about-sedona__text">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
-				<p class="text--regular advanteges-table__text">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ
+				<h2 class="text--bold about-sedona__text index-booking__head">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+				<p class="text--regular advanteges-table__text index-booking__text">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ
 				ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ
 				ПРЕДЛОЖЕНИЕ ГОСТИНИЦ В СЕДОНЕ</p>
 				<button class="button button_find-hotel"><a href="№" class="text--bold advanteges-table__text--white-head text--line-height-26">НАЙТИ ГОСТИНИЦУ</a></button>
 			</section>
-		</main>
-		<footer class="index-footer">
 			<div class="map-widget__wrapper">
 				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A91e2e336c64862920ce3ba4b0a8f8a05ee90a21aba2abee6fc63a129e923ed0c&amp;source=constructor" width="100%" height="350" frameborder="0"></iframe>
 			</div>
+		</main>
+		<footer class="index-footer">
 			<div class="social-icons__wrapper">
 				<p class="index-footer__hashtag">#VISITSEDONA</p>
 				<ul class="socal-networks">
