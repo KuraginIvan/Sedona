@@ -549,16 +549,16 @@ body {
 /*--- PHOTO ---*/
 .photo-collage__heading {
 	font-family: PTSans bold;
-	font-size: 14pt;
-	line-height: 24pt;
+	font-size: 12pt;
+	line-height: 20pt;
 	color: black;
 	margin-bottom: 0px;
 	margin-left: 20px;
 }
 .photo-collage__author {
 	font-family: PTSans Regular;
-	font-size: 14pt;
-	line-height: 24pt;
+	font-size: 12pt;
+	line-height: 20pt;
 	color: #333333;
 	margin-top: 0px;
 	margin-left: 20px;
@@ -569,6 +569,7 @@ body {
 	line-height: 26pt;
 	color: black;
 	text-align: center;
+	padding-top: 40px;
 }
 .photo-heading__text {
 	font-family: PTSans Regular;
@@ -639,6 +640,7 @@ body {
     display: flex;
     margin-left: 20px;
     margin-bottom: 20px;
+}
 .button-like__counter {
 	font-family: PTSans bold;
 	font-size: 14pt;
@@ -655,8 +657,8 @@ body {
 	margin: auto;
 	display: block;
 }
-@media (min-width: 698px) {
-	.photo-main {
+@media (min-width: 768px) {
+.photo-main {
 	padding-right: 60px;
 	padding-left: 60px;
 }
@@ -680,14 +682,85 @@ body {
 }
 .photo-collage__picture-2 {
 	margin: 0;
-	height: 400px;
+	height: 268px;
 }
 .photo-collage__picture-3 {
 	margin: 0;
-	height: 400px;
+	height: 268px;
 }
 .photo-collage__picture-4 {
 	margin: 0;
-	height: 400px;
+	height: 268px;
+}
+.button-like {
+	margin-bottom: 0;
+}
+.photo-collage__author {
+	margin-bottom: 0;
+}
+.button-like {
+	margin-bottom: 0;
+	position: relative;
+    float: right;
+    right: 20px;
+    bottom: 42px;
+}
+.photo-collage__author {
+	margin-bottom: 0;
+}
+.photo-doubt {
+	border-top: none;
+
+}
+.photo-heading__text {
+	padding-bottom: 75px;
+}
+}
+@media (min-width: 1024px) {
+.photo-heading__text {
+	white-space: pre-line;
+}
+.photo-collage__flex-item2 {
+	width: 33%;
+	flex-grow: 1;
+}
+.photo-collage__picture1-footer {
+	height: 85px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 315px;
+}
+.photo-collage__heading {
+	color: white;
+	padding-top: 15px;
+	margin-top: 0;
+}
+.photo-collage__author {
+	color: white;
+}
+.button-like__counter {
+	color: white;
+}
+.like-icon {
+	width: 30px;
+	height: 30px;
+	fill: white;
+	position: relative;
+	right: 10px;
+	bottom: 5px;
+}
+.photo-collage__picture2-footer {
+    height: 85px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 183px;
+}
+.photo-heading__text {
+	width: 50%;
+	margin: auto;
+	white-space: normal;
+}
+.photo-doubt__video {
+	height: 500px;
 }
 }
