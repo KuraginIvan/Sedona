@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Welcome to SEDONA!</title>
+    </head>
+    <body>
+        <header class="photo-header">
+            <a class="index-header__logo">
+                <img src="img/Logo.png" class="index-header__logo-image" width="auto" height="auto" alt="Логотип 'Седона'">
+                <img src="img/Logo-desk.png" class="desktop-header__logo-image" width="auto" height="auto" alt="Logo Sedona">
+            </a>
+            <nav class="main-nav">
+                <button class="main-nav__toggle" type="button">
+                    <span class="burger-menu__span"></span>
+                </button>
+                <div class="main-nav__wrapper">
+                    <ul class="main-nav__list site-list">
+                        <li class="site-list__item site-list__item--active site-list__item-flex1">
+                            <a href="#" class="site-list__link">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="site-list__item site-list__item--active site-list__item-flex2">
+                            <a href="photo.html" class="site-list__link">ФОТО И ВИДЕО</a>
+                        </li>
+                        <li class="site-list__item site-list__item--active site-list__item-flex3">
+                            <a href="form.html" class="site-list__link">ФОРМА ОТЗЫВА</a>
+                        </li>
+                        <li class="site-list__item site-list__item--active site-list__item-flex4">
+                            <a href="#" class="site-list__link">KURAGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="about-sedona__wrapper">
+        </header>
+         <main class="form-main">
+            <div class="photo-heading__wrapper">
+                <h2 class="photo-heading">ОСТАВТЕ СВОЙ ОТЗЫВ</h2>
+                <p class="form-heading__text">ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ! ОСТАВТЕ ОТЗЫВ О НИХ, А ТАК ЖЕ О ПОСЕЩЕННЫХ ВАМИ ДОСТОПРИМЕЧАТЕЛЬНОСТЯХ</p>
+            </div>
+            <form class="form-wrapper">
+                <div class="form-flex__item1 form-FIO form--border">
+                    <h3 class="form-FIO__Heading form-heading--bold">ПРЕДСТАВЬТЕСЬ:</h3>
+                    <p class="form-FIO__Text Form__font--regular">ИМЯ*:<input type="text" name="Ur name" ria-label="Ваше_имя" placeholder="Пётр" class="form-FIO__Name"></p>
+                    <p class="form-FIO__Text Form__font--regular">ФАМИЛИЯ*:<input type="text" name="Ur surnames" ria-label="Ваша_фамилия" placeholder="Иванов" class="form-FIO__surname"></p>
+                    <p class="form-FIO__Text Form__font--regular">ОТЧЕСТВО*:<input type="text" name="Ur Middle name" ria-label="Ваше_отчество" placeholder="Александрович" class="form-FIO__Middle-name"></p>
+                </div>
+                <div class="form-flex__item2 form-impression form--border">
+                    <h3 class="form-impression__heading form-heading--bold">ВАШЕ ОБЩЕЕ ВПЕЧАТЛЕНИЕ:</h3>
+                    <label class="radio-button">
+                        <input type="radio" name="emotion" value="Positive" class="form_impression__radio">
+                        <div class="radio-button__switch"></div>
+                        <span class="form-impression__text">Скорее положительное</span>
+                    </label>
+                    <label class="radio-button">
+                        <input type="radio" name="emotion" value="Negative" class="form_impression__radio">
+                        <div class="radio-button__switch"></div>
+                        <span class="form-impression__text">Скорее отрицательное</span>
+                    </label>
+                    <label class="radio-button">
+                        <input type="radio" name="emotion" value="complicate" class="form_impression__radio">
+                        <div class="radio-button__switch"></div>
+                        <span class="form-impression__text">Затрудняюсь ответить</span>
+                    </label>
+                </div>
+                <div class="form-flex__item3 form-contact form--border">
+                    <h3 class="form-contact__heading form-heading--bold">КОНТАКТНАЯ ИНФОРМАЦИЯ:</h3>
+                    <p class="Form__font--regular">КОНТАКТНЫЙ ТЕЛЕФОН*:</p>
+                    <input type="tel" name="Ur phone number" ria-label="Ваш_номер" placeholder="Введите телефон" class="form-contact__phone">
+                    <p class="Form__font--regular">ЭЛЕКТРОННАЯ ПОЧТА*:</p>
+                    <input type="email" name="ur email" ria-label="Ваша_почта" placeholder="Введите e-mail" class="form-contact__email">
+                </div>
+                <div class="form-flex__item4 form-attractions form--border">
+                    <h3 class="form-attractions__heading form-heading--bold">ПОСЕЩЕННЫЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ:</h3>
+                    <label class="checkbox-button">
+                        <input type="checkbox" name="Devil_bridge class">
+                        <div class="form-attractions__check"></div>
+                        <span class="form-attractions__text form-impression__text">Мост Дьявола</span>
+                    </label>
+                    <label class="checkbox-button">
+                        <input type="checkbox" name="mountain_bell">
+                        <div class="form-attractions__check"></div>
+                        <span class="form-attractions__text form-impression__text">Гора-Колокол</span>
+                    </label class="checkbox-button">
+                    <label class="checkbox-button">
+                        <input type="checkbox" name="slide_Park">
+                        <div class="form-attractions__check"></div>
+                        <span class="form-attractions__text form-impression__text">Слайд-парк</span>
+                    </label>
+                    <label class="checkbox-button">
+                        <input type="checkbox" name="Red_rocks">
+                        <div class="form-attractions__check"></div>
+                        <span class="form-attractions__text form-impression__text">Красные скалы</span>
+                    </label>
+                </div>
+                <div class="form-emotions form--border">
+                    <h3 class="form-emotions__heading form-heading--bold">ОПИШИТЕ СВОИ ЭМОЦИИ:</h3>
+                    <textarea type="text" name="Ur comment" ria-label="Ваш_комментарий" placeholder="Опишите подробно все свои восторги" class="form-emotions__comment"></textarea>
+                </div>
+                <div class="form-send form--border">
+                    <button class="form-send__button">ОТПРАВИТЬ ОТЗЫВ</button>
+                    <p class="form-send__text">* - ОБЯЗАТЕЛЬНЫЕ ПОЛЯ</p>
+                </div>
+            </form>
