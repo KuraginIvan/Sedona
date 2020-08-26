@@ -49,17 +49,17 @@
                 </div>
                 <div class="form-flex__item2 form-impression form--border">
                     <h3 class="form-impression__heading form-heading--bold">ВАШЕ ОБЩЕЕ ВПЕЧАТЛЕНИЕ:</h3>
-                    <label class="radio-button">
+                    <label class="radio-button radio-button__positive--tablet">
                         <input type="radio" name="emotion" value="Positive" class="form_impression__radio">
                         <div class="radio-button__switch"></div>
                         <span class="form-impression__text">Скорее положительное</span>
                     </label>
-                    <label class="radio-button">
+                    <label class="radio-button radio-button__negative--tablet">
                         <input type="radio" name="emotion" value="Negative" class="form_impression__radio">
                         <div class="radio-button__switch"></div>
                         <span class="form-impression__text">Скорее отрицательное</span>
                     </label>
-                    <label class="radio-button">
+                    <label class="radio-button radio-button__impression--tablet">
                         <input type="radio" name="emotion" value="complicate" class="form_impression__radio">
                         <div class="radio-button__switch"></div>
                         <span class="form-impression__text">Затрудняюсь ответить</span>
@@ -95,12 +95,28 @@
                         <span class="form-attractions__text form-impression__text">Красные скалы</span>
                     </label>
                 </div>
-                <div class="form-emotions form--border">
+                <div class="form-emotions form-flex__item5 form--border">
                     <h3 class="form-emotions__heading form-heading--bold">ОПИШИТЕ СВОИ ЭМОЦИИ:</h3>
                     <textarea type="text" name="Ur comment" ria-label="Ваш_комментарий" placeholder="Опишите подробно все свои восторги" class="form-emotions__comment"></textarea>
-                </div>
-                <div class="form-send form--border">
                     <button class="form-send__button">ОТПРАВИТЬ ОТЗЫВ</button>
                     <p class="form-send__text">* - ОБЯЗАТЕЛЬНЫЕ ПОЛЯ</p>
                 </div>
             </form>
+        </main>
+        <footer class="index-footer">
+            <div class="social-icons__wrapper">
+                <p class="index-footer__hashtag">#VISITSEDONA</p>
+                <ul class="socal-networks">
+                    <li class="social-networks__icons"><a href="https://vk.com/id101001883"><img src="img/Vk_icon.svg"></a></li>
+                    <li class="social-networks__icons"><a href="https://www.facebook.com/ivan.kuragin.71"><img src="img/Facebook_icon.svg"></a></li>
+                    <li class="social-networks__icons"><a href="https://www.instagram.com/25rmmkuragin/"><img src="img/instagram_icon.svg"></a></li>
+                </ul>
+            </div>
+            <div class="index-footer_copyright--wrapper">
+                <b class="index-footer__copyright">Разработано:</b>
+                <a class="copyright_link" href="https://vk.com/id101001883"><img src="img/vk_copyright.png" class="copyright_icon"></a>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/mobile-menu.js"></script>
+    </body>
